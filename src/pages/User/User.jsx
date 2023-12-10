@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { Link, useParams } from "react-router-dom";
-import Chart from "./../../components/chart/Chart";
 import PublishIcon from "@mui/icons-material/Publish";
 import { useContext } from "react";
 import productsContext from "../../Contexts/ProductDataContext";
@@ -67,7 +66,7 @@ function User() {
   return (
     <div className="product">
       <div className="productTitleContainer">
-        <h1 className="productTitle">Product</h1>
+        <h1 className="productTitle">User</h1>
         <Link to="/newUser">
           <button className="productAddButton" onClick={newProductHandler}>
             Create
