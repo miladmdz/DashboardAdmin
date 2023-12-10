@@ -1,0 +1,12 @@
+.text{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+.notFound{
+ flex: 4;   
+ background-color: gray;
+ border-radius: 10px;
+}
